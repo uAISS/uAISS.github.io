@@ -1,0 +1,114 @@
+# ----------------------- #
+#      Main Configs       #
+# ----------------------- #
+
+url: https://henziger.se
+title: Eric Henziger
+email: hemtillhenziger@gmail.com
+author: Eric Henziger
+copyright: 'Copyright &copy; 2020 Eric Henziger. All Rights Reserved.'
+
+# ----------------------- #
+# Translations & Language #
+# ----------------------- #
+langs:
+  sv:
+    about: "Om henziger.se"
+    contact: "Kontakt"
+    description: "Eric Henzigers startsida."
+    flags:
+      - img: "sv.png"
+        name: "Svenska flaggan"
+    home: "Hem"
+    index: ""
+    keep_in_touch: "Kontakta mig"
+    name: "Svenska"
+    proj: "Projekt"
+    mail: "E-post"
+  en:
+    about: "About"
+    contact: "Contact"
+    description: "Eric Henziger's landing page."
+    flags:
+      - img: "en-gb.png"
+        name: "Union Jack"
+      - img: "en-us.png"
+        name: "Stars and Stripes"
+    home: "Home"
+    index: "en.html"
+    keep_in_touch: "Keep in touch"
+    name: "English"
+    proj: "Projects"
+    mail: "Email me"
+  fr:
+    about: "À propos"
+    contact: "Contact"
+    description: "Page de renvoi de Eric Henziger."
+    flags:
+      - img: "fr.png"
+        name: "Drapeau Tricolore"
+    home: "Accueil"
+    index: "fr.html"
+    keep_in_touch: "Reste en contact avec moi"
+    name: "Français"
+    proj: "Projets"
+    mail: "Email"
+  kr:
+    about: "About"
+    contact: "Contact"
+    description: "Eric Henziger's landing page."
+    flags:
+      - img: "kr.png"
+        name: "Taegukgi"
+    home: "Home"
+    index: "kr.html"
+    keep_in_touch: "Keep in touch"
+    name: "한국어"
+    proj: "프로젝트"
+    mail: "이메일"
+
+# ----------------------- #
+#    Jekyll & Plugins     #
+# ----------------------- #
+
+# Build settings
+markdown: kramdown
+permalink: none
+exclude: [scripts, vendor, README.md, Gemfile]
+
+# ----------------------- #
+#   3rd Party Settings    #
+# ----------------------- #
+
+social:
+  - title: linkedin
+    url: https://se.linkedin.com/in/erichenziger
+    descr:
+      kr: 링크드인
+  - title: github
+    url: https://github.com/henziger
+    descr:
+      kr: 깃허브
+  - title: goodreads
+    url: https://goodreads.com/henziger
+    descr:
+      kr: 굿리즈
+  - title: wordpress
+    url: https://henziger.com
+    descr:
+      sv: Blogg
+      en: Blog
+      fr: Blog
+      kr: 블로그
+  - title: facebook
+    url: https://www.facebook.com/eric.henziger
+    descr:
+      kr: 페이스북
+  - title: instagram
+    url: https://www.instagram.com/erichenziger/
+    descr:
+      kr: 인스타그램
+  - title: twitter
+    url: https://twitter.com/henziger
+    descr:
+      kr: 트위터

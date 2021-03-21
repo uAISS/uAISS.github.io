@@ -1,0 +1,59 @@
+<!-- About Section -->
+{% assign bootstrap_theme = '<a href="https://startbootstrap.com/themes/landing-page">' %}
+{% assign shane_weng = '<a href="https://github.com/swcool">' %}
+{% assign death_to_stock = '<a href="https://join.deathtothestockphoto.com">' %}
+{% assign g_fonts = '<a href="https://www.google.com/fonts">' %}
+{% assign fa = '<a href="https://fontawesome.com">' %}
+{% assign joypixels = '<a href="https://www.joypixels.com">' %}
+
+<section id="about" class="container content-section text-center">
+    <div class="row">
+        <div class="col-lg-8 offset-lg-2">
+            {% if page.lang == "en" %}
+            <h2>About This Site</h2>
+            <p>{{site.langs["en"].description}}</p>
+            <p>This site was built using {{ bootstrap_theme }}Landing-Page.</a></p>
+            <p>The Jekyll version is brought to you by {{ shane_weng }}Shane Weng</a>.</p>
+            <p>This theme features stock photos by {{ death_to_stock }}Death to the Stock Photo</a>.</p>
+            <p>This template features the 'Lato' font, part of the {{ g_fonts }}Google Web Font library</a>,
+                as well as icons from {{ fa }}Font Awesome</a>.</p>
+            <p>
+                <img class="emoji" src="img/glasses.png" alt="Sunglasses emoji">
+                Emoji art supplied by {{ joypixels }}JoyPixels</a>.</p>
+            {% elsif page.lang == "sv" %}
+            <h2>Om henziger.se</h2>
+            <p>{{site.langs["sv"].description}}</p>
+            <p>Denna sida bygger på temat {{ bootstrap_theme }}Landing-Page.</a></p>
+            <p>Jekyll-versionen av temat skapades av {{ shane_weng }}Shane Weng</a>.</p>
+            <p>Bilder på sidan från {{ death_to_stock }}Death to the Stock Photo</a>.</p>
+            <p>Mallen använder 'Lato' fonten, som är en del av {{ g_fonts }}Google Web Font library</a>,
+                såväl som ikoner från {{ fa }}Font Awesome</a>.</p>
+            <p>
+                <img class="emoji" src="img/glasses.png" alt="Sunglasses emoji">
+                Ikoner tillhandahållna av {{ joypixels }}JoyPixels</a>.</p>
+            {% elsif page.lang == "fr" %}
+            <h2>À propos henziger.se</h2>
+            <p>{{site.langs["fr"].description}}</p>
+            <p>This site was built using {{ bootstrap_theme }}Landing-Page.</a></p>
+            <p>The Jekyll version is brought to you by {{ shane_weng }}Shane Weng</a>.</p>
+            <p>This theme features stock photos by {{ death_to_stock }}Death to the Stock Photo</a>.</p>
+            <p>This template features the 'Lato' font, part of the {{ g_fonts }}Google Web Font library</a>,
+                as well as icons from {{ fa }}Font Awesome</a>.</p>
+            <p>
+                <img class="emoji" src="img/glasses.png" alt="Sunglasses emoji">
+                Emoji art supplied by {{ joypixels }}JoyPixels</a>.</p>
+            {% elsif page.lang == "kr" %}
+            <h2>About This Site</h2>
+            <p>{{site.langs["kr"].description}}</p>
+            <p>This site was built using {{ bootstrap_theme }}Landing-Page.</a></p>
+            <p>The Jekyll version is brought to you by {{ shane_weng }}Shane Weng</a>.</p>
+            <p>This theme features stock photos by {{ death_to_stock }}Death to the Stock Photo</a>.</p>
+            <p>This template features the 'Lato' font, part of the {{ g_fonts }}Google Web Font library</a>,
+                as well as {{ fa }}icons from Font Awesome</a>.</p>
+            <p>
+                <img class="emoji" src="img/glasses.png" alt="Sunglasses emoji">
+                Emoji art supplied by {{ joypixels }}JoyPixels</a>.</p>
+            {% endif %}
+        </div>
+    </div>
+</section>

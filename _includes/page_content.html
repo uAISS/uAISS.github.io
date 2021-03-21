@@ -1,0 +1,61 @@
+<section id="projects">
+    <!-- Page Content -->
+    {% assign posts=site.posts %}
+    {% for post in posts %}
+    {% assign odd = forloop.index | modulo: 2 %}
+    {% if odd == 1 %}
+    <div class="content-section-a">
+
+        <div class="container">
+
+            <div class="row">
+                <div class="col-lg-5 col-sm-6">
+                    <hr class="section-heading-spacer">
+                    <div class="clearfix"></div>
+                    <h2 class="section-heading">{{ post.title }}</h2>
+                    <div class="lead">{{ post.description[page.lang] | markdownify }}</div>
+                </div>
+                <div class="col-lg-5 offset-lg-2 col-sm-6">
+                    <picture>
+                        <source type="image/webp" srcset="img/projects/{{ post.img | split: '.' | first }}.webp">
+                        <source type="image/{{ post.img | split: '.' | last }}" srcset="img/projects/{{ post.img }}">
+                        <img class="img-fluid" src="img/projects/{{ post.img }}" alt="{{ post.img_alt[page.lang] }}">
+                    </picture>
+                </div>
+            </div>
+
+        </div>
+        <!-- /.container -->
+
+    </div>
+    <!-- /.content-section-a -->
+    {% else %}
+
+    <div class="content-section-b">
+
+        <div class="container">
+
+            <div class="row">
+                <div class="col-lg-5 offset-lg-1 col-sm-6 order-2">
+                    <hr class="section-heading-spacer">
+                    <div class="clearfix"></div>
+                    <h2 class="section-heading">{{ post.title }}</h2>
+                    <div class="lead">{{ post.description[page.lang] | markdownify }}</div>
+                </div>
+                <div class="col-lg-5 col-sm-6 order-1">
+                    <picture>
+                        <source type="image/webp" srcset="img/projects/{{ post.img | split: '.' | first }}.webp">
+                        <source type="image/{{ post.img | split: '.' | last }}" srcset="img/projects/{{ post.img }}">
+                        <img class="img-fluid" src="img/projects/{{ post.img }}" alt="{{ post.img_alt[page.lang] }}">
+                    </picture>
+                </div>
+            </div>
+
+        </div>
+        <!-- /.container -->
+
+    </div>
+    <!-- /.content-section-b -->
+    {% endif %}
+    {% endfor %}
+</section>

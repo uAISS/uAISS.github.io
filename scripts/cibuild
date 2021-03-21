@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+set -e # halt script on error
+
+bundle exec jekyll build
+bundle exec rm -rf ./_site/projects
+bundle exec htmlproofer ./_site --disable-external --url-ignore /django/,/knekt/,/math-quiz/,/papers/

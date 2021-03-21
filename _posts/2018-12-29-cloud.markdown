@@ -1,0 +1,27 @@
+---
+ref: cloud
+img: cloud.jpg
+img_alt:
+  en: "A roll cloud associated with a severe thunderstorm over Racine, Wisconsin, United States"
+  fr: "Un arcus en rouleau à Racine (États-Unis)."
+  kr: "A roll cloud associated with a severe thunderstorm over Racine, Wisconsin, United States"
+  sv: "Ett rull-moln vid ett kraftigt åskoväder i Racine, Wisconsin"
+title: The Cost of Confidentiality in Cloud Storage
+description:
+  en: |
+    In December 2019, Niklas Carlsson and I had two papers about client-side encryption in cloud storage systems published in IEEE/ACM UCC 2019 and IEEE CloudCom 2019.
+
+    The first paper (["The Overhead of Confidentiality and Client-side Encryption in Cloud Storage Systems"](/papers/ucc19.pdf)) empirically characterizes the overheads associated with using client-side encryption and was one of three papers nominated for the best paper award at IEEE/ACM UCC 2019. The second paper (["Delta Encoding Overhead Analysis of Cloud Storage Systems using Client-side Encryption"](/papers/cloudcom19.pdf)) looks closer at the biggest problem identified in the first paper (i.e., effectively using delta encoding with client-side encryption).
+  fr: |
+    En décembre 2019, Niklas Carlsson et moi avons publié deux articles sur le chiffrement côté client pour les services de stockage en nuage dans IEEE/ACM UCC 2019 et IEEE CloudCom 2019.
+
+    Le premier article (["The Overhead of Confidentiality and Client-side Encryption in Cloud Storage Systems"](/papers/ucc19.pdf)) décrit les frais généraux associés à l'utilisation du chiffrement côté client. Le deuxième article (["Delta Encoding Overhead Analysis of Cloud Storage Systems using Client-side Encryption"](/papers/cloudcom19.pdf)) examine le plus gros problème identifié dans le premier article, en utilisant efficacement le codage différentiel avec le chiffrement côté client.
+  kr: |
+    In December 2019, Niklas Carlsson and I had two papers about client-side encryption in cloud storage systems published in IEEE/ACM UCC 2019 and IEEE CloudCom 2019.
+
+    The first paper (["The Overhead of Confidentiality and Client-side Encryption in Cloud Storage Systems"](/papers/ucc19.pdf)) empirically characterizes the overheads associated with using client-side encryption and was one of three papers nominated for the best paper award at IEEE/ACM UCC 2019. The second paper (["Delta Encoding Overhead Analysis of Cloud Storage Systems using Client-side Encryption"](/papers/cloudcom19.pdf)) looks closer at the biggest problem identified in the first paper (i.e., effectively using delta encoding with client-side encryption).
+  sv: |
+    December 2019 publicerade Niklas Carlsson och jag två artiklar om klientside-kryptering i molnlagringstjänster i IEEE/ACM UCC 2019 och IEEE CloudCom 2019.
+
+    Den första artikeln (["The Overhead of Confidentiality and Client-side Encryption in Cloud Storage Systems"](/papers/ucc19.pdf)) karakteriserar kostnaderna vid användning av klientside-kryptering och var en av tre artiklar som nominerades till bästa artikel på IEEE/ACM UCC 2019. Den andra artikeln (["Delta Encoding Overhead Analysis of Cloud Storage Systems using Client-side Encryption"](/papers/cloudcom19.pdf)) undersöker det största problemet som identifierades i den första artikeln, att effektivt använda delta-synkronisering med klientside-kryptering.
+---
